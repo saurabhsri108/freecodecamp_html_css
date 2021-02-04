@@ -30,6 +30,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -51,7 +55,11 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1rem 0;
+  padding: 1rem 6.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
@@ -118,7 +126,7 @@ main {
 
 main section {
   align-items: center;
-  padding: 3.125rem 0 6.25rem 0;
+  padding: 6.25rem 0 6.25rem 0;
 }
 
 #main article {
@@ -451,14 +459,18 @@ footer a:focus {
     padding: 0 2rem;
   }
 
+  main section {
+    padding: 15.125rem 0 6.25rem 0;
+  }
+
   .header-btn {
     flex: 1 1 10%;
   }
 
   section {
     flex-direction: column;
-    padding: 2rem;
     text-align: center;
+    padding: 14rem 2rem 2rem 2rem;
   }
 
   #main article {
@@ -561,7 +573,7 @@ footer a:focus {
 
   .header-btn {
     flex: 1 1 100%;
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
   }
 
