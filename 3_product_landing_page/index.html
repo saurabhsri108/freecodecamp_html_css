@@ -3,8 +3,220 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Product Landing Page</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header id="header">
+        <a href="#" class="logo" id="header-img">PerfectProduct</a>
+        <nav id="nav-bar">
+          <ul class="list-group">
+            <li class="list-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="list-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header-btn">Sign Up Now</button>
+      </header>
+      <section id="main">
+        <article>
+          <h2>Best ui/ux designers in the market</h2>
+          <h1>we capture the soul of our clients</h1>
+          <form
+            action="https://www.freecodecamp.com/email-submit"
+            method="post"
+            id="form"
+          >
+            <div class="form-group">
+              <label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                />
+              </label>
+              <input type="submit" value="Subscribe" id="submit" />
+            </div>
+          </form>
+        </article>
+        <picture>
+          <img loading="lazy" src="./images/1.png" alt="" />
+        </picture>
+      </section>
+    </main>
+    <section id="about">
+      <video id="video" autoplay>
+        <source src="./videos/video.mp4" type="video/mp4" />
+      </video>
+      <article>
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim
+          numquam quam ullam voluptatem, reiciendis autem quod impedit. Tempora
+          excepturi incidunt minus hic suscipit! Inventore!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit id
+          accusantium doloremque culpa dolores incidunt suscipit ab laboriosam,
+          illo magnam corrupti nostrum maxime? Fugit, necessitatibus.
+        </p>
+      </article>
+    </section>
+    <section id="features">
+      <article id="feature_text">
+        <h2>Features</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          accusamus, perferendis eius quos deleniti libero eligendi atque
+          praesentium aliquid ad rerum fugiat, veniam minus placeat!
+        </p>
+        <p>
+          Nobis minus ullam officia ea sequi mollitia tenetur, consequatur magni
+          reprehenderit? Ullam quae quo placeat harum, suscipit dignissimos
+          quisquam, alias nihil reprehenderit illum neque itaque!
+        </p>
+      </article>
+      <article id="feature_list">
+        <div>
+          <img loading="lazy" src="./images/2.svg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+            pariatur explicabo molestias magnam enim reiciendis quidem
+            inventore? Sapiente, recusandae accusamus.
+          </p>
+        </div>
+        <div>
+          <img loading="lazy" src="./images/4.svg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            veniam cum vero ipsa, porro nulla odio quam tenetur magni voluptate.
+          </p>
+        </div>
+        <div>
+          <img loading="lazy" src="./images/5.svg" alt="" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            ut voluptate sunt itaque dolore laborum corporis ad culpa debitis
+            autem?
+          </p>
+        </div>
+      </article>
+    </section>
+    <section id="contact">
+      <article class="contact__details">
+        <h2>
+          Please get in touch and our expert support team will answer all your
+          questions
+        </h2>
+        <p>
+          <span>Email: </span>
+          <a href="mailto:vasudeveloper001@gmail.com" target="_blank">
+            vasudeveloper001@gmail.com
+          </a>
+        </p>
+        <p>
+          <span>LinkedIn: </span>
+          <a
+            href="https://www.linkedin.com/in/saurabh-srivastava-b62330109/"
+            target="_blank"
+          >
+            https://www.linkedin.com/in/saurabh-srivastava-b62330109/
+          </a>
+        </p>
+        <p>
+          <span>YouTube: </span>
+          <a
+            href="https://www.youtube.com/channel/UCHBONOEjtMti0oRA_qWADYA"
+            target="_blank"
+          >
+            https://www.youtube.com/channel/UCHBONOEjtMti0oRA_qWADYA
+          </a>
+        </p>
+        <p><span>Address: </span>221b Baker Street, London</p>
+      </article>
+      <article class="contact__form">
+        <h2>Contact Us</h2>
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          autocomplete="off"
+        >
+          <div class="form-group">
+            <label>
+              <input type="text" placeholder="Full Name" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="email" placeholder="Email" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="6"
+                placeholder="Message"
+              ></textarea>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Submit Message" />
+          </div>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <article>
+        <h3>PerfectProduct</h3>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </article>
+      <article>
+        <p>Copyright &copy; 2021 Saurabh Srivastava</p>
+        <p>All Rights Reserved</p>
+      </article>
+      <article>
+        <h3>React Out To Me Via</h3>
+        <nav>
+          <ul class="text-right">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </article>
+    </footer>
+  </body>
 </html>
+
+<!-- Credits -->
+<!-- <a href="https://iconscout.com/illustrations/design" target="_blank">Design and development process Illustration</a> by <a href="https://iconscout.com/contributors/woobrodesign" target="_blank">WOOBRO DESIGN</a> -->
+
+<!-- <a href="https://iconscout.com/illustrations/designer" target="_blank">Designer Illustration</a> by <a href="https://iconscout.com/contributors/delesign">Delesign Graphics</a> on <a href="https://iconscout.com">Iconscout</a> -->
+
+<!-- <a href="https://iconscout.com/icons/web-layout" target="_blank">Web Layout Icon</a> by <a href="https://iconscout.com/contributors/kiran-shastry" target="_blank">Kiran Shastry</a> -->
+
+<!-- <a href="https://iconscout.com/icons/graphic-design" target="_blank">Graphic Design Icon</a> by <a href="https://iconscout.com/contributors/yogiaprelliyanto">Yogi Aprelliyanto</a> on <a href="https://iconscout.com">Iconscout</a> -->
+
+<!-- <a href="https://iconscout.com/icons/design" target="_blank">Design Icon</a> by <a href="https://iconscout.com/contributors/jemismali">Jemis Mali</a> on <a href="https://iconscout.com">Iconscout</a> -->
+
+<!-- Video by Pavel Danilyuk from Pexels -->
